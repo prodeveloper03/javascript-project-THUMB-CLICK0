@@ -1,0 +1,64 @@
+body {
+
+    font-family: sans-serif;
+    color: white;
+    background-color:rgb(59, 58, 58);
+    text-align: center;
+
+
+}
+
+#shape {
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: none;
+    position: relative;
+
+}
+
+.bold {
+
+    font-weight: bold;
+
+}
+#container {
+
+        height: 100px;
+        width: auto;
+        background-color:  #372410;
+
+}
+#logo {
+            height: 100px;
+            width: 170px;
+
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+@media only screen and (max-width:800px) {
+/* For tablets: */
+.container {
+    width: 80%;
+    padding: 0;
+}
+.shape-screen , .footer{
+    width: 100%;
+}
+}
+@media only screen and (max-width:500px) {
+/* For mobile phones: */
+.container, .shape-screen {
+    width: 100%;
+}
+}
